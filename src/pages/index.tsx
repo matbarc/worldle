@@ -65,8 +65,8 @@ export default function Home({
       <main className="bg-[#212121]">
         <ToastContainer position="top-center" theme="dark" />
 
-        <div className="mx-auto flex min-h-screen max-w-lg flex-col items-center gap-6 py-6">
-          <h1 className="text-4xl text-white">
+        <div className="mx-auto flex min-h-screen max-w-lg flex-col items-center gap-6 p-6">
+          <h1 className="text-3xl text-white lg:text-4xl">
             WOR<span className="text-[#080]">L</span>DLE UN
             <span className="text-[#080]">L</span>IMITED
           </h1>
