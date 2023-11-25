@@ -184,12 +184,13 @@ const CountryImage = ({ countryCode }: ImageProps) => {
   const src = `/assets/${countryCode.toLowerCase()}.svg`;
 
   return (
-    <Image
-      alt="Location to guess!"
-      width={300}
-      height={300}
-      src={src}
-      className="my-5 invert"
-    />
+    <div className="relative my-5 h-44 w-44 lg:h-80 lg:w-80">
+      <Image
+        alt="Location to guess!"
+        src={src}
+        fill={true}
+        className="invert"
+      />
+    </div>
   );
 };
